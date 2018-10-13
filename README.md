@@ -4,7 +4,7 @@
 
 - Build ToaruOS's userspace and kernel.
 - Be capable of some optimizations.
-- No external depdencies.
+- No external dependencies.
 - Self-hosting.
 - Produce ELF relocatable objects, shared objects, executables.
 
