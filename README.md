@@ -2,9 +2,9 @@
 
 ## Goals
 
-- Implement an x86 assembler.
+- Implement an x86 assembler producing ELF objects.
 - Implement a 32-bit ELF linker, based on the Toaru module loader and ld.so.
-- Implement a basic C compiler producing assembler for the assembler.
+- Implement a basic C compiler producing assembly for the assembler.
 - Build ToaruOS's userspace.
 - Eventually, build ToaruOS's kernel.
 - Be capable of some optimizations.
