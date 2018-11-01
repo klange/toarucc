@@ -1,8 +1,12 @@
-# A Certain C Compiler
+# A Certain Compiler Collection
 
 ## Goals
 
-- Build ToaruOS's userspace and kernel.
+- Implement an x86 assembler.
+- Implement a 32-bit ELF linker, based on the Toaru module loader and ld.so.
+- Implement a basic C compiler producing assembler for the assembler.
+- Build ToaruOS's userspace.
+- Eventually, build ToaruOS's kernel.
 - Be capable of some optimizations.
 - No external dependencies.
 - Self-hosting.
@@ -12,3 +16,9 @@
 
 - Be worth using in a production environment.
 - Be fast.
+
+## Timeline
+
+- EOY 2018: Assembler and linker.
+- Eventually: C compiler.
+
